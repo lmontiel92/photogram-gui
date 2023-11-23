@@ -16,7 +16,7 @@ Rails.application.routes.draw do
 
   post("/update_photo/:path_id", {:controller=> "photos",:action=> "update" })
 
-  post("/delete_photo/:path_id", {:controller=> "photos",:action=> "delete" })
+  get("/delete_photo/:path_id", {:controller=> "photos",:action=> "delete" })
 
   #Comments routes
 
