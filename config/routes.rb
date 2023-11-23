@@ -27,4 +27,5 @@ Rails.application.routes.draw do
   #Comments routes
 
   post("/add_comment", {:controller=> "comments",:action=> "add" })
+  
 end
